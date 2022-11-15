@@ -3,7 +3,7 @@
 ## Objetivos:
 
   - Apresentação da empresa;
-  - Apresentação do sistema construtivos utilizado pela empresa;
+  - Apresentação do sistema construtivo utilizado pela empresa;
   - Apresentação dos projetos que a empresa elabora;
   - Apresentação das obras realizadas pela empresa;
   - Formulário de contato;

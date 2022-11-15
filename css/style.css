@@ -6,6 +6,8 @@
 @import url(../css/rodape.css);
 @import url(../css/projetos.css);
 @import url(../css/obras.css);
+@import url(../css/trabalhe-conosco.css);
+@import url(../css/contato.css);
 
 :root{
     --cinza-escuro: #3A404E;
@@ -13,7 +15,10 @@
     --marsala: #8E2424;
     --vermelho: #ab2e42;
     --background: #ece9e9;
+    --azul: #4169e1;
+    --azul-escuro: #054f77;
     --fonte-principal: 'Poppins';
+    
 
 }
 

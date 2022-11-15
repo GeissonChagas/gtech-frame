@@ -40,13 +40,9 @@
 
 
 .cabeçalho__contato{
-    margin: 0.8em 0;
+    margin: 1.5em 0 0;
 }
 
-.cabeçalho__contato--botao{
-    padding: 1em 1.2em;
-
-}
 
 .cabeçalho__contato--botao{
     color: white;
@@ -56,6 +52,10 @@
     border-style: none;
     font-family: 'Poppins';
     font-weight: 16px;      
+    padding: 1em 1.2em;
+    text-decoration: none;
+    width: 90px;
+    height: 25px;
 }
 
 .cabeçalho__contato--botao:hover{
