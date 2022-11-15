@@ -1,0 +1,21 @@
+.projetos__apresentação--titulo{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.5em;
+    
+    
+}
+
+.projetos__apresentação--imagem{
+    width: 100%;
+    margin: 0;
+
+
+}
+
+.projetos__apresentação--texto{
+    padding: 0.5em 0;
+    color: var(--cinza-escuro);
+    text-align: justify;
+}

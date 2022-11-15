@@ -1,0 +1,25 @@
+@import url(../css/reset.css);
+@import url(../css/header.css);
+@import url(../css/presentation.css);
+@import url(../css/benefits.css);
+@import url(../css/oque-e-lsf.css);
+@import url(../css/rodape.css);
+@import url(../css/projetos.css);
+@import url(../css/obras.css);
+
+:root{
+    --cinza-escuro: #3A404E;
+    --cinza: #808080;
+    --marsala: #8E2424;
+    --vermelho: #ab2e42;
+    --background: #ece9e9;
+    --fonte-principal: 'Poppins';
+
+}
+
+body{
+    font-family: var(--fonte-principal);
+    margin: 2em 4em;
+    
+}
+

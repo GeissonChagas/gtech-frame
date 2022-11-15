@@ -1,0 +1,25 @@
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.quem-somos__titulo{
+    font-weight: 600;
+    font-size: 24px ;
+    text-align: center;
+
+}
+
+.quem-somos__imagem{
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+
+}
+
+.quem-somos__texto--apresentacao{
+    text-align: justify ;
+    padding-top:1em ;
+    color: var(--cinza-escuro);
+
+}

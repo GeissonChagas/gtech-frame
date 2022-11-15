@@ -1,0 +1,40 @@
+.sistema-lsf{
+    display: flex;
+    flex-direction: column;
+}
+
+.sistema-lsf__titulo{
+    font-size: 22px;
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    padding: 1.5em 0;
+    text-align: center;
+
+
+}
+
+.sistema-lsf__imagem{
+    width: 90%;
+    padding: 1em 5vw;
+
+}
+
+.sistema-lsf__resumo{
+    color: var(--cinza-escuro);
+    text-align: justify;
+}
+
+.sistema-lsf__titulo2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1.5em 2em;
+
+}
+
+.sistema-lsf__lista--item{
+    color: var(--cinza-escuro);
+    list-style:circle;
+    margin: 0.5em  4em;
+    text-align: justify;
+    
+}

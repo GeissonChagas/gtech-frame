@@ -1,0 +1,25 @@
+.obras{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.obras__imagem--titulo{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.obras__imagens--lista{
+    width: 80%;
+    margin: 0 10vw;
+    padding: 1em 0;
+}
+
+.obras__imagens--imagem{
+    width: 80%;
+    margin: 0 10vw;
+    padding: 1em 0;
+
+}

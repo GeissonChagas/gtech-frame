@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Gtech Frame</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="../gtech-engenharia/css/style.css">
+</head>
+<header>
+    <section class="cabeçalho">
+        <div class="cabeçalho__logo">
+            <img class = cabeçalho__logo--imagem src="img/gtech-logo.png" alt="Logo da empresa">
+            <h1 class="cabeçalho__titulo"><b class="cabeçalho__titulo--negrito">G</b>tech <b class="cabeçalho__titulo--negrito">F</b>rame</h1>
+        </div>
+        <nav>
+            <ul class="cabeçalho__menu">
+                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="index.html">Home</a></li>
+                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="projetos.html">Projetos</a></li>
+                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes"href="obras.html">Obras</a></li>
+                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes"href="#">Trabalhe conosco</a></li>
+            </ul>
+        </nav>
+        <div class="cabeçalho__contato">
+            <button href="#" class="cabeçalho__contato--botao">Contato</button>
+        </div>
+    </section><hr>
+    </header>
+
+<main>
+<form>
+    <label for="nomesobrenome">Nome e sobrenome</label>
+    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+    <label for="telefone">Telefone</label>
+    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+    <label for="mensagem">Mensagem</label>
+    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+    <fieldset>
+        <legend>Como prefere o nosso contato?</legend>
+        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+        
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+        
+        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Qual horário prefere ser atendido?</legend>
+        <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+        </select>
+    </fieldset>
+
+    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+    <input type="submit" value="Enviar formulário" class="enviar">
+</form>
+
+<table>
+    <tr>
+        <td>Dia</td>
+        <td>Horário</td>
+    </tr>
+    <tr>
+        <td>Segunda</td>
+        <td>8h ~ 20h</td>
+    </tr>
+    <tr>
+        <td>Quarta</td>
+        <td>8h ~ 20h</td>
+    </tr>
+    <tr>
+        <td>Sexta</td>
+        <td>8h ~ 20h</td>
+    </tr>
+</table>
+</main>
+
+<footer class="rodape">
+    <img src="../gtech-engenharia/img/gtech-logo.png" class="rodape__logo">
+    <p class="rodape__telefone">Telefone: (DDD) XXXX-XXXX</p>
+    <p class="rodape__email">contato@gtechframesolucoes.com</p>
+    <p class="rodape__copyright">&copy; Copyright Gtech Frame</p>
+</footer>

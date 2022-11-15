@@ -1,0 +1,25 @@
+.beneficios{
+    display: flex;
+    justify-content: center;
+    padding: 2em 3em;
+
+}
+
+.beneficios__container{
+    text-align: center;
+}
+
+.beneficios__titulo{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--marsala);
+    padding: 1em 0;
+}
+
+
+.beneficios__descrição{
+    text-align: center;
+    color: var(--cinza-escuro);
+}
+
+

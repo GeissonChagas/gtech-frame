@@ -1,0 +1,64 @@
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabeçalho__logo{
+    display: inline-flex;
+    padding: 0.8em 0;
+}
+
+.cabeçalho__logo--imagem{
+    width: 40px;
+    height: 40px;
+    border-radius: 22px;
+}  
+
+.cabeçalho__titulo{
+    font-weight: 400;
+    padding: 0.7em;
+}
+
+.cabeçalho__titulo--negrito{
+    font-weight: 700;
+}
+
+.cabeçalho__menu{
+    display: inline-flex;
+}
+
+.cabeçalho__menu--opcoes{
+    padding: 1.5em 1em;
+    text-decoration: none;
+    color: var(--cinza-escuro);
+}
+
+.cabeçalho__menu--opcoes:hover{
+    color: #054f77;
+    font-weight: 600;
+}
+
+
+.cabeçalho__contato{
+    margin: 0.8em 0;
+}
+
+.cabeçalho__contato--botao{
+    padding: 1em 1.2em;
+
+}
+
+.cabeçalho__contato--botao{
+    color: white;
+    background-color: var(--marsala);
+    font-weight: 400;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Poppins';
+    font-weight: 16px;      
+}
+
+.cabeçalho__contato--botao:hover{
+    font-weight: 600;
+    background-color: var(--vermelho);
+}
