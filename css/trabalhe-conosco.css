@@ -1,9 +1,9 @@
 .trabalhe-conosco{
     display: flex;
     flex-direction: column;
-    margin: 0 20vw;
+    margin: auto;
     padding: 2em 0;
-    width: 60%;
+    width: 80%;
     
 }
 
@@ -22,6 +22,7 @@
     font-family: 'Poppins';
     border-radius: 10px;
     border-style: none;
+
 
 }
 
@@ -43,6 +44,8 @@
     font-family: 'Poppins';
     border-radius: 10px;
     border-style: none;
+    margin: auto;
+    
 
 }
 
