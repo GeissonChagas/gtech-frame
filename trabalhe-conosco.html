@@ -34,30 +34,44 @@
 <main class="trabalhe-conosco">
 
 <section>
-<form class="formulario">
+<form class="formulario" id="formulario">
     <label for="nomesobrenome" class="label">Nome e sobrenome:</label>
-    <input type="text" id="nomesobrenome" class="input-padrao" required><br><br>
+    <input type="text" id="nome" class="input-padrao" oninput= "validaNome()">
+    <span class="formulario__span--nome"></span>
 
     <label for="email" class="label">E-mail:</label>
-    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com"><br><br>
+    <input type="email" id="email" class="input-padrao"  placeholder="seuemail@dominio.com" oninput= "validaEmail()">
+    <span class="formulario__span--email"></span>
 
 
     <label for="telefone" class="label">Telefone:</label>
-    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"><br><br>
+    <input type="tel" id="telefone" class="input-padrao"  placeholder="(XX) XXXXX-XXXX" oninput= "validaTelefone()">
+    <span class="formulario__span--telefone"></span>
 
-    <label for="profissao" class="label">Profissão:</label>
-    <input type="text" id="profissao" class="input-padrao" required><br><br>
+    <fieldset class="profissão">
+            <legend class="profissão" id="profissao">Qual sua profissão?</legend>
+            <select class="profissão__select">
+                <option>Engenheiro(a)</option>
+                <option>Arquiteto(a)</option>
+                <option>Contador(a)</option>
+                <option>Mestre(a) de obras</option>
+                <option>Pedreiro(a)</option>
+                <option>Servente</option>
+                <option>Outros</option>
+            </select>
+    </fieldset>
 
 
-    <label for="anexo" class="label">Anexo do currículo .pdf:</label> <button cols="70" rows="10" id="anexo" class="input-anexo" required>Anexo</button><br><br>
+    <label for="anexo" class="label">Anexo do currículo .pdf:</label> 
+    <button cols="70" rows="10" id="anexo" class="input-anexo" >Anexo</button><br><br>
 
     
-    <button cols="70" rows="10" id="enviar" class="input-enviar" required>Enviar</button><br><br>
+    <button cols="70" rows="10" id="enviar" class="input-enviar" >Enviar</button><br><br>
 
 </form>
 </section>
 
-
+<script src="../gtech-frame/js/trabalhe-conosco.js"></script>
 </main><hr>
 
 <footer class="rodape">
