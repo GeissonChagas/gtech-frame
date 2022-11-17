@@ -32,18 +32,21 @@
     </header>
 
 <main>
-    <form class="formulario">
+    <form id="formulario" class="formulario">
         <label for="nomesobrenome" class="label">Nome e sobrenome:</label>
-        <input type="text" id="nomesobrenome" class="input-padrao" required><br>
+        <input type="text" id="nome" class="input-padrao" oninput="validaNome()" required>
+        <span class="formulario__span--nome"></span>
 
         <label for="email" class="label">E-mail:</label>
-        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com"><br>
+        <input type="email" id="email" class="input-padrao"  placeholder="seuemail@dominio.com" oninput="validaEmail()"required>
+        <span class="formulario__span--email"></span>
 
         <label for="telefone" class="label">Telefone:</label>
-        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"><br>
+        <input type="tel" id="telefone" class="input-padrao"  placeholder="(XX) XXXXX-XXXX" oninput="validaTelefone()" required>
+        <span class="formulario__span--telefone"></span>
 
         <label for="mensagem" class="label">Mensagem:</label>
-        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea><br>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
         <fieldset>
             <legend>Como prefere o nosso contato?</legend><br>
@@ -56,7 +59,7 @@
 
         <fieldset>
             <legend class="legend">Qual horário prefere ser atendido?</legend><br>
-            <select>
+            <select class="select">
                 <option>Manhã</option>
                 <option>Tarde</option>
                 <option>Noite</option>
@@ -88,6 +91,9 @@
         </tr>
     </table>
 </section>
+
+<script src="../gtech-frame/js/contato.js"></script>
+
 </main><hr>
 
 

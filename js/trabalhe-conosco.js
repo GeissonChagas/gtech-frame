@@ -13,7 +13,7 @@ function erroNome(index){
     let span = document.querySelector(".formulario__span--nome") 
 
     inputs[index].style.border = '2px solid #e63636';
-    span.textContent = "O nome deve ter no mínimo 3 caracteres.";
+    span.textContent = "O nome + sobrenome deve ter pelo menos 3 caracteres.";
 }
 
 function tiraErroNome(index){
@@ -83,7 +83,7 @@ function tiraErroTelefone(index){
 }
 
 function validaTelefone(){
-    if (inputs[2].value.length < 10 || inputs[2].value.length > 11) {
+    if (inputs[2].value.length < 10 || inputs[2].value.length > 15) {
         erroTelefone(2);
     }
     else {

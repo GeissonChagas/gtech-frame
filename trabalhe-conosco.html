@@ -36,21 +36,21 @@
 <section>
 <form class="formulario" id="formulario">
     <label for="nomesobrenome" class="label">Nome e sobrenome:</label>
-    <input type="text" id="nome" class="input-padrao" oninput= "validaNome()">
+    <input type="text" id="nome" class="input-padrao" oninput= "validaNome()" required>
     <span class="formulario__span--nome"></span>
 
     <label for="email" class="label">E-mail:</label>
-    <input type="email" id="email" class="input-padrao"  placeholder="seuemail@dominio.com" oninput= "validaEmail()">
+    <input type="email" id="email" class="input-padrao"  placeholder="seuemail@dominio.com" oninput= "validaEmail()" required>
     <span class="formulario__span--email"></span>
 
 
     <label for="telefone" class="label">Telefone:</label>
-    <input type="tel" id="telefone" class="input-padrao"  placeholder="(XX) XXXXX-XXXX" oninput= "validaTelefone()">
+    <input type="tel" id="telefone" class="input-padrao"  placeholder="(XX) XXXXX-XXXX" oninput= "validaTelefone()" required>
     <span class="formulario__span--telefone"></span>
 
     <fieldset class="profissão">
             <legend class="profissão" id="profissao">Qual sua profissão?</legend>
-            <select class="profissão__select">
+            <select class="select">
                 <option>Engenheiro(a)</option>
                 <option>Arquiteto(a)</option>
                 <option>Contador(a)</option>
@@ -72,6 +72,7 @@
 </section>
 
 <script src="../gtech-frame/js/trabalhe-conosco.js"></script>
+
 </main><hr>
 
 <footer class="rodape">

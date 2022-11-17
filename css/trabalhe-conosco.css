@@ -82,7 +82,7 @@
     margin: 1em 0;
 }
 
-.profissão__select{
+.select{
     border-radius: 5px;
     border-style: none;
     background-color: var(--marsala);

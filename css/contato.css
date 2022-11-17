@@ -1,4 +1,4 @@
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     padding: 2em 0;
@@ -37,21 +37,22 @@
     height: 20%;
 }
 
+.tabela {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1em ;
+    width: 40%;
+    
+}
+
 .tabela__titulo{
 
     font-weight: 600;
     font-size: 18px;
     padding-bottom: 1em;
     width: auto;
-}
-
-.tabela {
-
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 1em ;
-    width: 210px;
-    
 }
 
 
@@ -65,4 +66,38 @@ thead {
 td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
+}
+
+.label {
+    margin: 1em 0 0.5em 0;
+}
+
+.formulario__span--nome{
+    color: var(--vermelho);
+    font-size: 14px;
+}
+
+.formulario__span--email{
+    color: var(--vermelho);
+    font-size: 14px;
+}
+
+.formulario__span--telefone{
+    color: var(--vermelho);
+    font-size: 14px;
+}
+
+.select{
+    border-radius: 5px;
+    border-style: none;
+    background-color: var(--marsala);
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    height: 24px;
+    text-align: center;
+}
+
+input, textarea {
+    font-family: 'Poppins';
+    font-size: 14px;
 }
