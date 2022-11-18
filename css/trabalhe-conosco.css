@@ -93,6 +93,38 @@
 }
 
 
+@media screen and (max-width: 730px){
+
+    .trabalhe-conosco{
+        width: 100%;
+    }
+    
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        padding: 2em 0;
+        width: 100%;
+        
+    }
+
+    .input-anexo {
+        margin: auto;
+    }
+
+    .label{
+        text-align: center;
+    }
+
+    .profissão{
+        text-align: center;
+    }
+
+
+
+
+
+    
+}
 
 
 
