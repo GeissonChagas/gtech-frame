@@ -110,6 +110,8 @@ input, textarea {
 
 
 @media screen and (max-width: 730px) {
+
+    
     
     .formulario{
         display: flex;
@@ -136,4 +138,5 @@ input, textarea {
     .tabela{
         width: 100%;
     }
+
 }

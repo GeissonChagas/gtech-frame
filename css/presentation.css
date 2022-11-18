@@ -30,6 +30,10 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    .quem-somos{
+        padding: 2em 0;
+    }
     
 }
 

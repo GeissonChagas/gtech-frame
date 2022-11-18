@@ -11,120 +11,128 @@
     <link  rel="stylesheet" href="../gtech-frame/css/style.css">
 </head>
 
-<header>
-    <section class="cabeçalho">
-        <div class="cabeçalho__logo">
-            <img class = cabeçalho__logo--imagem src="../gtech-frame/img/gtech-logo.png" alt="Logo da empresa">
-            <h1 class="cabeçalho__titulo"><b class="cabeçalho__titulo--negrito">G</b>tech <b class="cabeçalho__titulo--negrito">F</b>rame</h1>
-        </div>
-        <nav>
-            <ul class="cabeçalho__menu">
-                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/index.html">Home</a></li>
-                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/projetos.html">Projetos</a></li>
-                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/obras.html">Obras</a></li>
-                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/trabalhe-conosco.html">Trabalhe conosco</a></li>
-            </ul>
-        </nav>
-        <div class="cabeçalho__contato">
-            <a class="cabeçalho__contato--botao" href="../gtech-frame/contato.html">Contato</a>
-        </div>
-    </section>
-    
-    <section class="responsivo">
+<body>
 
-        <div>
-            <button onclik= "menuShow()" class="menu-responsivo__botao"></button>
-        </div>
+    <header>
+        <section class="cabeçalho">
+                <div class="cabeçalho__logo">
+                    <img class = cabeçalho__logo--imagem src="../gtech-frame/img/gtech-logo.png" alt="Logo da empresa">
+                    <h1 class="cabeçalho__titulo"><b class="cabeçalho__titulo--negrito">G</b>tech <b class="cabeçalho__titulo--negrito">F</b>rame</h1>
+                </div>
+                    <nav>
+                        <ul class="cabeçalho__menu">
+                            <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/index.html">Home</a></li>
+                            <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/projetos.html">Projetos</a></li>
+                            <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/obras.html">Obras</a></li>
+                            <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/trabalhe-conosco.html">Trabalhe conosco</a></li>
+                        </ul>
+                    </nav>
 
-        <div class="menu-responsivo__lista">
-            <nav>
-                <button onclik= "menuShow()" class="menu-responsivo__botao"></button>
-                <ul class="cabeçalho-responsivo__lista">
-                    <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/index.html">Home</a></li>
-                    <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/projetos.html">Projetos</a></li>
-                    <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/obras.html">Obras</a></li>
-                    <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/trabalhe-conosco.html">Trabalhe conosco</a></li>
-                    <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="cabeçalho__logo--responsivo">
-            <img class = cabeçalho__logo--imagem src="../gtech-frame/img/gtech-logo.png" alt="Logo da empresa">
-            <h1 class="cabeçalho__titulo"><b class="cabeçalho__titulo--negrito">G</b>tech <b class="cabeçalho__titulo--negrito">F</b>rame</h1>
-        </div>
-
-    </section>
-
-
-    </header><hr>
-
-<main>
-    <form id="formulario" class="formulario">
-        <label for="nomesobrenome" class="label">Nome e sobrenome:</label>
-        <input type="text" id="nome" class="input-padrao" oninput="validaNome()" required>
-        <span class="formulario__span--nome"></span>
-
-        <label for="email" class="label">E-mail:</label>
-        <input type="email" id="email" class="input-padrao"  placeholder="seuemail@dominio.com" oninput="validaEmail()"required>
-        <span class="formulario__span--email"></span>
-
-        <label for="telefone" class="label">Telefone:</label>
-        <input type="tel" id="telefone" class="input-padrao"  placeholder="(XX) XXXXX-XXXX" oninput="validaTelefone()" required>
-        <span class="formulario__span--telefone"></span>
-
-        <label for="mensagem" class="label">Mensagem:</label>
-        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-
-        <fieldset class="fildset">
-            <legend>Como prefere o nosso contato?</legend><br>
-            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                <div class="cabeçalho__contato">
+                    <a class="cabeçalho__contato--botao" href="../gtech-frame/contato.html">Contato</a>
+                </div>
+            </section>    
             
-            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+            <section class="responsivo">
+                <div class="container">
+
+                    <div class="hamburger">
+                        <div class="line" id="line1"></div>
+                        <div class="line" id="line2"></div>
+                        <div class="line" id="line3"></div>
+                    </div>
+                    
+                    <aside class="sidebar">
+                        <nav>
+                            <ul class="menu">
+                                <li class="menu-item"><a href="../gtech-frame/index.html" class="menu-link">Home</a></li>
+                                <li class="menu-item"><a href="../gtech-frame/projetos.html" class="menu-link">Projetos</a></li>
+                                <li class="menu-item"><a href="../gtech-frame/obras.html" class="menu-link">Obras</a></li>
+                                <li class="menu-item"><a href="../gtech-frame/trabalhe-conosco.html" class="menu-link">Trabalhe conosco</a></li>
+                                <li class="menu-item"><a href="../gtech-frame/contato.html" class="menu-link">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+                </div>
             
-            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
-        </fieldset><br>
+                        <div class="cabeçalho__logo--responsivo">
+                            <img class = cabeçalho__logo--imagem src="../gtech-frame/img/gtech-logo.png" alt="Logo da empresa">
+                        </div>
+                        <div>
+                            <h1 class="cabeçalho__titulo"><b class="cabeçalho__titulo--negrito">G</b>tech <b class="cabeçalho__titulo--negrito">F</b>rame</h1>
+                        </div>
+            </section>
 
-        <fieldset>
-            <legend class="legend">Qual horário prefere ser atendido?</legend><br>
-            <select class="select">
-                <option>Manhã</option>
-                <option>Tarde</option>
-                <option>Noite</option>
-            </select>
-        </fieldset>
 
-        <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+    <main><hr>
+        <form id="formulario" class="formulario">
+            <label for="nomesobrenome" class="label">Nome e sobrenome:</label>
+            <input type="text" id="nome" class="input-padrao" oninput="validaNome()" required>
+            <span class="formulario__span--nome"></span>
 
-        <input type="submit" value="Enviar formulário" class="enviar">
-    </form>
+            <label for="email" class="label">E-mail:</label>
+            <input type="email" id="email" class="input-padrao"  placeholder="seuemail@dominio.com" oninput="validaEmail()"required>
+            <span class="formulario__span--email"></span>
 
-    <div class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d58854.77325984751!2d-43.34819398609238!3d-22.786772726781546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x9972edfbe838f5%3A0x672bb060c280a52a!2sDuque%20de%20Caxias%2C%20RJ!3m2!1d-22.7868557!2d-43.3130887!4m5!1s0x9972edfbe838f5%3A0x672bb060c280a52a!2sDuque%20de%20Caxias%2C%20RJ!3m2!1d-22.7868557!2d-43.3130887!5e0!3m2!1spt-BR!2sbr!4v1668781393200!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>
+            <label for="telefone" class="label">Telefone:</label>
+            <input type="tel" id="telefone" class="input-padrao"  placeholder="(XX) XXXXX-XXXX" oninput="validaTelefone()" required>
+            <span class="formulario__span--telefone"></span>
 
-<section class="tabela">
-    <h1 class="tabela__titulo">Horários:</h1>
-    <table>
-        <tr>
-            <td>Dia</td>
-            <td>Horários de atentimento:</td>
-        </tr>
-        <tr>
-            <td>Segunda</td>
-            <td>8h ~ 20h</td>
-        </tr>
-        <tr>
-            <td>Quarta</td>
-            <td>8h ~ 20h</td>
-        </tr>
-        <tr>
-            <td>Sexta</td>
-            <td>8h ~ 20h</td>
-        </tr>
-    </table>
-</section>
+            <label for="mensagem" class="label">Mensagem:</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset class="fildset">
+                <legend>Como prefere o nosso contato?</legend><br>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend class="legend">Qual horário prefere ser atendido?</legend><br>
+                <select class="select">
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d58854.77325984751!2d-43.34819398609238!3d-22.786772726781546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x9972edfbe838f5%3A0x672bb060c280a52a!2sDuque%20de%20Caxias%2C%20RJ!3m2!1d-22.7868557!2d-43.3130887!4m5!1s0x9972edfbe838f5%3A0x672bb060c280a52a!2sDuque%20de%20Caxias%2C%20RJ!3m2!1d-22.7868557!2d-43.3130887!5e0!3m2!1spt-BR!2sbr!4v1668781393200!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>
+
+    <section class="tabela">
+        <h1 class="tabela__titulo">Horários:</h1>
+        <table>
+            <tr>
+                <td>Dia</td>
+                <td>Horários de atentimento:</td>
+            </tr>
+            <tr>
+                <td>Segunda</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>8h ~ 20h</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
 
 <script src="../gtech-frame/js/contato.js"></script>
+<script src="../gtech-frame/js/menu-responsivo.js"></script>  
 
 </main><hr>
 
