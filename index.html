@@ -13,25 +13,54 @@
 
 <header>
     <section class="cabeçalho">
-        <div class="cabeçalho__logo">
-            <img class = cabeçalho__logo--imagem src="../gtech-frame/img/gtech-logo.png" alt="Logo da empresa">
-            <h1 class="cabeçalho__titulo"><b class="cabeçalho__titulo--negrito">G</b>tech <b class="cabeçalho__titulo--negrito">F</b>rame</h1>
-        </div>
-        <nav>
-            <ul class="cabeçalho__menu">
-                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/index.html">Home</a></li>
-                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/projetos.html">Projetos</a></li>
-                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/obras.html">Obras</a></li>
-                <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/trabalhe-conosco.html">Trabalhe conosco</a></li>
-            </ul>
-        </nav>
-        <div class="cabeçalho__contato">
-            <a class="cabeçalho__contato--botao" href="../gtech-frame/contato.html">Contato</a>
-        </div>
-    </section><hr>
+            <div class="cabeçalho__logo">
+                <img class = cabeçalho__logo--imagem src="../gtech-frame/img/gtech-logo.png" alt="Logo da empresa">
+                <h1 class="cabeçalho__titulo"><b class="cabeçalho__titulo--negrito">G</b>tech <b class="cabeçalho__titulo--negrito">F</b>rame</h1>
+            </div>
+                <nav>
+                    <ul class="cabeçalho__menu">
+                        <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/index.html">Home</a></li>
+                        <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/projetos.html">Projetos</a></li>
+                        <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/obras.html">Obras</a></li>
+                        <li class="cabeçalho__menu--opcoes"><a class="cabeçalho__menu--opcoes" href="../gtech-frame/trabalhe-conosco.html">Trabalhe conosco</a></li>
+                    </ul>
+                </nav>
+
+            <div class="cabeçalho__contato">
+                <a class="cabeçalho__contato--botao" href="../gtech-frame/contato.html">Contato</a>
+            </div>
+
+        </section>
+
+        <section class="responsivo">
+
+            <div>
+                <button onclik= "menuShow()" class="menu-responsivo__botao"></button>
+            </div>
+
+            <div class="menu-responsivo__lista">
+                <nav>
+                    <button onclik= "menuShow()" class="menu-responsivo__botao"></button>
+                    <ul class="cabeçalho-responsivo__lista">
+                        <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/index.html">Home</a></li>
+                        <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/projetos.html">Projetos</a></li>
+                        <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/obras.html">Obras</a></li>
+                        <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/trabalhe-conosco.html">Trabalhe conosco</a></li>
+                        <li class="menu-responsivo--opcoes"><a class="menu-responsivo--opcoes" href="../gtech-frame/contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="cabeçalho__logo--responsivo">
+                <img class = cabeçalho__logo--imagem src="../gtech-frame/img/gtech-logo.png" alt="Logo da empresa">
+                <h1 class="cabeçalho__titulo"><b class="cabeçalho__titulo--negrito">G</b>tech <b class="cabeçalho__titulo--negrito">F</b>rame</h1>
+            </div>
+
+        </section>
+
     </header>
 
-<main>
+<main><hr>
     <section class="apresentacao">
         <div class="quem-somos">
         <h1 class="quem-somos__titulo">Quem somos?</h1>
@@ -92,6 +121,7 @@
                 <li class="sistema-lsf__lista--item">Estruturas em Light Steel Framing reduzem em até 30% o custo das fundações, por serem mais leves que as estruturas de alvenaria.</li>
             </ul>
         </section><hr>
+
     
 </main>
 
@@ -102,8 +132,7 @@
     <p class="rodape__copyright">&copy; Copyright Gtech Frame</p>
 </footer>
 
-
-        
+<script src="../gtech-frame/js/menu-responsivo.js"></script>    
 
 <body>
     
