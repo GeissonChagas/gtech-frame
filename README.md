@@ -1,4 +1,4 @@
-# gtech-frame
+# Projeto de uma empresa de engenharia utilizando html, css e javascript.
 
 ## Objetivos:
 
